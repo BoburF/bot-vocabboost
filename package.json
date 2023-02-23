@@ -1,6 +1,29 @@
 {
   "dependencies": {
+    "dotenv": "^16.0.3",
     "mongoose": "^6.9.2",
     "telegraf": "^4.11.2"
+  },
+  "name": "bot-vocabboost",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoburF/bot-vocabboost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoburF/bot-vocabboost/issues"
+  },
+  "homepage": "https://github.com/BoburF/bot-vocabboost#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
